@@ -2,30 +2,14 @@ import React from 'react';
 
 export const LeftBar = () => {
 	return (
-		<div className='h-full w-72 bg-blue-400  overflow-hidden'>
-			<div className='bg-green-400 h-40'>
-				<div className='h-16 bg-indigo-400'>
-					<p>logo</p>
-				</div>
-				<div className='h-24 bg-yellow-400'>
-					<p>usuario </p>
-				</div>
+		<div className='col-span-1 bg-gray-600 h-screen'>
+			<div className='h-16 bg-yellow-600 flex'>
+				<h1 className='my-auto mx-auto'>logo app</h1>
 			</div>
-			<div className='flex flex-col '>
-				<div>
-					asdasdasd
-				</div>
-				<div>
-					asdasdasd
-				</div>
-				<div>
-					asdasdasd
-				</div>
-				<div>
-					asdasdasd
-				</div>
-
+			<div className='h-24 bg-purple-600 flex'>
+				<h1 className='my-auto mx-auto'>datos de usuario</h1>
 			</div>
+			<h1 className='text-center my-60'>opciones</h1>
 		</div>
 	)
 }
