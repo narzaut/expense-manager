@@ -3,7 +3,7 @@ import { LeftBar } from './LeftBar'
 import { CentralContent  } from './CentralContent'
 export const Home = () => {
 	return(
-		<div className='grid grid-cols-5'>
+		<div className='flex w-full h-screen'>
 			<LeftBar />
 			<CentralContent />		
     	</div>
